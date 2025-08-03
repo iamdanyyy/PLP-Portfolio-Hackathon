@@ -55,7 +55,6 @@ Portfolio Hackathon/
 - **Google Fonts**: Inter font family
 - **Pure CSS Animations**: No JavaScript dependencies
 - **Custom Icons**: Unicode symbols and CSS gradients
-- **Vanilla JavaScript**: Minimal JS for navigation highlighting
 
 ## 🎯 Icon System
 
