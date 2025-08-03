@@ -2,6 +2,8 @@
 
 A modern, responsive personal portfolio website showcasing Emmanuel Amdany's skills, projects, and professional background. Built with pure HTML and CSS for optimal performance and complete customization control.
 
+🌐 Live Demo: [View Portfolio](https://iamdanyyy.github.io/PLP-Portfolio-Hackathon/)
+
 ## 🚀 Features
 
 - **Modern Design**: Clean, professional layout with smooth animations
