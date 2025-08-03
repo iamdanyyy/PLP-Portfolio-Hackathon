@@ -142,7 +142,6 @@ The portfolio is easily customizable:
 
 - **Zero External Dependencies**: No CDN loading required
 - **Optimized CSS**: Efficient selectors and minimal file sizes
-- **No JavaScript Libraries**: Pure vanilla JS for minimal overhead
 - **Optimized Images**: Web-optimized project screenshots
 - **Fast Loading**: Minimal external requests
 
