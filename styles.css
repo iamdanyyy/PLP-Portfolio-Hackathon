@@ -229,6 +229,15 @@ body {
     overflow: hidden;
 }
 
+.btn-icon {
+    font-size: 1.1rem;
+    transition: transform 0.3s ease;
+}
+
+.btn:hover .btn-icon {
+    transform: translateX(3px);
+}
+
 .btn::before {
     content: '';
     position: absolute;
@@ -408,6 +417,44 @@ section {
     margin-bottom: 1rem;
     color: #2563eb;
     transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(37, 99, 235, 0.1);
+    margin: 0 auto 1rem;
+}
+
+.icon-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2563eb;
+}
+
+.js-icon {
+    background: linear-gradient(135deg, #f7df1e, #f0db4f);
+}
+
+.python-icon {
+    background: linear-gradient(135deg, #3776ab, #ffde57);
+}
+
+.java-icon {
+    background: linear-gradient(135deg, #007396, #ed8b00);
+}
+
+.html-icon {
+    background: linear-gradient(135deg, #e34f26, #f16529);
+}
+
+.kotlin-icon {
+    background: linear-gradient(135deg, #7f52ff, #ff6d5a);
+}
+
+.sql-icon {
+    background: linear-gradient(135deg, #336791, #f29111);
 }
 
 .skill-card:hover .skill-icon {
@@ -476,6 +523,13 @@ section {
     color: #2563eb;
     flex-shrink: 0;
     transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: rgba(37, 99, 235, 0.1);
 }
 
 .education-card:hover .education-icon {
@@ -574,6 +628,14 @@ section {
     color: #2563eb;
     margin-bottom: 1rem;
     transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(37, 99, 235, 0.1);
+    margin: 0 auto 1rem;
 }
 
 .interest-card:hover .interest-icon {
@@ -640,6 +702,14 @@ section {
     color: #2563eb;
     margin-bottom: 1rem;
     transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgba(37, 99, 235, 0.1);
+    margin: 0 auto 1rem;
 }
 
 .hobby-card:hover .hobby-icon {
@@ -798,10 +868,19 @@ section {
     border-radius: 6px;
 }
 
+.link-icon {
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+}
+
 .project-link:hover {
     color: #1d4ed8;
     background: rgba(37, 99, 235, 0.1);
     transform: translateY(-2px);
+}
+
+.project-link:hover .link-icon {
+    transform: scale(1.1);
 }
 
 /* Contact Section */
@@ -847,37 +926,57 @@ section {
     color: #2563eb;
 }
 
-.contact-item i {
+.contact-icon {
     color: #2563eb;
+    font-size: 1.2rem;
     width: 20px;
     transition: transform 0.3s ease;
 }
 
-.contact-item:hover i {
+.contact-item:hover .contact-icon {
     transform: scale(1.2);
 }
 
 .social-links {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .social-link {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
     background: #2563eb;
     color: white;
-    border-radius: 50%;
+    border-radius: 12px;
     text-decoration: none;
     transition: all 0.3s ease;
+    padding: 0.5rem;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+    margin-bottom: 0.25rem;
+}
+
+.social-label {
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1;
 }
 
 .social-link:hover {
     background: #1d4ed8;
-    transform: translateY(-2px) scale(1.1);
+    transform: translateY(-2px) scale(1.05);
+}
+
+.social-link:hover .social-icon {
+    transform: scale(1.1);
 }
 
 /* Contact Form */

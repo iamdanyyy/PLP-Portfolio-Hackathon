@@ -1,6 +1,6 @@
 # Emmanuel Amdany - Personal Portfolio
 
-A modern, responsive personal portfolio website showcasing Emmanuel Amdany's skills, projects, and professional background.
+A modern, responsive personal portfolio website showcasing Emmanuel Amdany's skills, projects, and professional background. Built with pure HTML and CSS for optimal performance and complete customization control.
 
 ## 🚀 Features
 
@@ -9,6 +9,8 @@ A modern, responsive personal portfolio website showcasing Emmanuel Amdany's ski
 - **Interactive**: Smooth scrolling navigation with active section highlighting
 - **Professional**: Showcases skills, projects, education, and interests
 - **Accessible**: Built with accessibility best practices
+- **Zero Dependencies**: No external JavaScript libraries - pure HTML/CSS
+- **Custom Icons**: Unique gradient-based skill icons without external icon libraries
 
 ## 📁 Project Structure
 
@@ -30,29 +32,46 @@ Portfolio Hackathon/
 ### Sections
 - **Hero Section**: Introduction with profile image and call-to-action buttons
 - **About**: Personal introduction with statistics
-- **Skills**: Programming languages and technologies
+- **Skills**: Programming languages and technologies with custom gradient icons
 - **Education**: Academic background and certifications
 - **Interests**: Professional passions and motivations
 - **Hobbies**: Personal interests (Gaming, Music, Tech Reviews)
 - **Projects**: Featured projects with images and links
-- **Contact**: Contact form and social links
+- **Contact**: Contact form and social links with labels
 
 ### Animations & Effects
-- Smooth scroll navigation
+- Smooth scroll navigation with active highlighting
 - Hover effects on all interactive elements
 - Fade-in animations for sections
 - Gradient overlays and transitions
-- Active navigation highlighting
-- Button shine effects
-- Card hover animations
+- Button shine effects with icon animations
+- Card hover animations with scale effects
+- Custom gradient backgrounds for skill icons
 
 ## 🛠️ Technologies Used
 
 - **HTML5**: Semantic markup structure
 - **CSS3**: Modern styling with Flexbox and Grid
-- **Font Awesome**: Icons for visual elements
 - **Google Fonts**: Inter font family
 - **Pure CSS Animations**: No JavaScript dependencies
+- **Custom Icons**: Unicode symbols and CSS gradients
+- **Vanilla JavaScript**: Minimal JS for navigation highlighting
+
+## 🎯 Icon System
+
+### Custom Icon Implementation
+- **No External Libraries**: Removed Font Awesome dependency
+- **Unicode Symbols**: Used emoji and Unicode characters for icons
+- **CSS Gradients**: Custom gradient backgrounds for skill icons
+- **Text-based Icons**: Technology abbreviations with styled containers
+
+### Icon Categories
+- **Skills**: JS, Py, Java, HTML, Kt, SQL with unique gradients
+- **Education**: 🎓 (graduation), 📜 (certificate)
+- **Interests**: 🤖 (AI), 📱 (mobile), 👥 (open source)
+- **Hobbies**: 🎮 (gaming), 🎵 (music), 💻 (tech reviews)
+- **Navigation**: → (arrows), ✉ (email), ⬇ (download)
+- **Social**: 📂 (GitHub), 💼 (LinkedIn), 🐦 (X/Twitter)
 
 ## 📱 Responsive Design
 
@@ -74,6 +93,7 @@ The portfolio is fully responsive with breakpoints for:
 - Proper heading hierarchy
 - Accessible form elements
 - SEO-friendly structure
+- Custom icon implementation with spans
 
 ### CSS Features
 - CSS Grid and Flexbox layouts
@@ -81,6 +101,7 @@ The portfolio is fully responsive with breakpoints for:
 - Custom scrollbar styling
 - Hover effects and micro-interactions
 - Mobile-first responsive design
+- Gradient backgrounds and custom icon styling
 
 ### Assets
 - **CV**: Professional resume in PDF format
@@ -90,15 +111,24 @@ The portfolio is fully responsive with breakpoints for:
 ## 🎯 Key Projects Showcased
 
 1. **E-Commerce Platform**: HTML, CSS, PHP website
+   - Live Demo: [Safisha Rugs](https://iamdanyyy.github.io/Safisha-Rugs/)
+   - Source Code: [GitHub Repository](https://github.com/iamdanyyy/Safisha-Rugs/)
+
 2. **Simple ML ChatBot**: HTML, CSS, JavaScript chatbot
+   - Live Demo: [ChatBot](https://iamdanyyy.github.io/Simple-Chatbot/)
+   - Source Code: [GitHub Repository](https://github.com/iamdanyyy/Simple-Chatbot/)
+
 3. **Video Time Lapse Generator**: Python desktop application
+   - Source Code: [GitHub Repository](https://github.com/iamdanyyy/Video-Time-Lapse-Generator.git)
 
 ## 📞 Contact Information
 
-- **Email**: emmanuel.amdany@email.com
-- **Location**: San Francisco, CA
-- **GitHub**: github.com/emmanuelamdany
-- **LinkedIn**: linkedin.com/in/emmanuelamdany
+- **Email**: emmanuelamdany1@gmail.com
+- **Phone**: 0114233551
+- **Location**: Nairobi, KE
+- **GitHub**: [iamdanyyy](https://github.com/iamdanyyy)
+- **LinkedIn**: [Emmanuel Amdany](https://linkedin.com/in/emmanuel-amdany-85ba23240)
+- **X/Twitter**: [@IamAmdany](https://x.com/IamAmdany)
 
 ## 🔧 Customization
 
@@ -107,23 +137,36 @@ The portfolio is easily customizable:
 - Modify colors and styles in `styles.css`
 - Replace project images in the `assets/` folder
 - Update links and contact information
+- Customize icon colors and gradients
 
 ## 📈 Performance
 
-- Optimized CSS with efficient selectors
-- Minimal file sizes for fast loading
-- No external JavaScript dependencies
-- Optimized images for web
+- **Zero External Dependencies**: No CDN loading required
+- **Optimized CSS**: Efficient selectors and minimal file sizes
+- **No JavaScript Libraries**: Pure vanilla JS for minimal overhead
+- **Optimized Images**: Web-optimized project screenshots
+- **Fast Loading**: Minimal external requests
 
 ## 🌟 Highlights
 
-- **Professional Design**: Modern, clean aesthetic
-- **Smooth Animations**: Engaging user experience
+- **Professional Design**: Modern, clean aesthetic with custom icons
+- **Smooth Animations**: Engaging user experience with CSS-only effects
 - **Mobile Responsive**: Perfect on all devices
-- **Accessibility**: WCAG compliant
-- **Fast Loading**: Optimized for performance
+- **Accessibility**: WCAG compliant with proper semantic structure
+- **Fast Loading**: Optimized for performance with no external dependencies
 - **Easy Maintenance**: Well-organized code structure
+- **Custom Icon System**: Unique gradient-based skill icons
+- **Enhanced Social Links**: Clear labels for better UX
+
+## 🎨 Design Philosophy
+
+This portfolio demonstrates modern web development practices:
+- **Semantic HTML**: Proper structure for accessibility and SEO
+- **CSS-only Animations**: Smooth performance without JavaScript
+- **Custom Icon System**: Unique visual identity without external dependencies
+- **Responsive Design**: Mobile-first approach
+- **Performance First**: Minimal external dependencies for fast loading
 
 ---
 
-**Built with ❤️ using HTML and CSS only** 
+**Built with ❤️ using pure HTML and CSS** 
